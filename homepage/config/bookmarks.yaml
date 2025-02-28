@@ -1,0 +1,65 @@
+---
+# For configuration options and examples, please see:
+# https://gethomepage.dev/latest/configs/bookmarks
+
+- Version Control:
+    - Dazlabs-IA:
+        - abbr: GF
+          href: http://192.168.50.143:3001/Dazlabs-IA
+          icon: gitea.png
+    - Dazlabs-DevOps:
+        - abbr: GF
+          href: http://192.168.50.143:3001/Dazlabs-Devops
+          icon: gitea.png
+    - Gravitad-Frontend:
+        - abbr: GF
+          href: http://192.168.50.143:3001/Gravitad-Frontend
+          icon: gitea.png
+    - Gravitad-Backend:
+        - abbr: GB
+          href: http://192.168.50.143:3001/Gravitad-Backend
+          icon: gitea.png
+    - Docker-Hub:
+        - abbr: Dck
+          href: https://app.docker.com/
+          icon: docker.png
+
+
+- Social:
+    - CNCF:
+        - abbr: CNCF
+          href: https://landscape.cncf.io/
+          icon: https://avatars.githubusercontent.com/u/13455738?s=48&v=4
+          siteMonitor: https://landscape.cncf.io/
+
+- Entertainment:
+
+    - Sadip Das:
+        - abbr: YT
+          href: https://www.youtube.com/@learnTechWithSandip
+          icon: https://yt3.googleusercontent.com/XQC68DTPXTYO02PUc7Ji4S7Cwgrmnb8UYBIctF2QR4lwXT-dEtsUFHG8zvOY502f3HxliC62=s160-c-k-c0x00ffffff-no-rj
+          siteMonitor: https://www.youtube.com/@learnTechWithSandip
+    - DaveOps:
+        - abbr: YT
+          href: https://www.youtube.com/c/DaveOps
+          icon: https://yt3.googleusercontent.com/xPlFk4vhZhYge5hVKQN4ElVd4jZdCjOPorJ49Kzm1gF2oy6D4OK8Nv3ToP7z0J7kyf2gEE7L=s160-c-k-c0x00ffffff-no-rj
+          siteMonitor: https://www.youtube.com/c/DaveOps
+          
+    - Jim's Garage:
+        - abbr: YT
+          href: https://www.youtube.com/@Jims-Garage
+          icon: https://yt3.googleusercontent.com/Jn8DfcI4aNq_U1_LR-PpUV73Dwoen2t8hEonzZVfsrTAfEK09SWq-pRh7wg-Ae4fsATPs38_7w=s160-c-k-c0x00ffffff-no-rj
+          siteMonitor: https://www.youtube.com/@Jims-Garage
+    
+    - Christian Lempa CH:
+        - abbr: YT
+          href: https://www.youtube.com/@christianlempa
+          icon: https://yt3.googleusercontent.com/bCGRJiR-Xv6V-9iPGlOqV0wPJ836A2S5r-eQpdPVcGOAW_iRk9Dl3lfV1Hab_OlSfQubB30UIA=s160-c-k-c0x00ffffff-no-rj
+          siteMonitor: https://www.youtube.com/@christianlempa
+
+    - 295 Devops:
+        - abbr: YT
+          href: https://www.youtube.com/channel/UCa-FcaB75ZtqWd1YCWW6INQ
+          icon: https://yt3.googleusercontent.com/xvvGdBGqoWsr4pX7sb7ZN00a7pb9bI_bSctMoUK0yMuk-iHo4Yutn5jLnlLQCTZRSstcJu4Pmg=s160-c-k-c0x00ffffff-no-rj
+          siteMonitor: https://www.youtube.com/channel/UCa-FcaB75ZtqWd1YCWW6INQ
+

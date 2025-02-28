@@ -1,0 +1,33 @@
+---
+# For configuration options and examples, please see:
+# https://gethomepage.dev/latest/configs/widgets
+
+- resources:
+    cpu: true
+    memory: true
+    disk: /
+
+- search:
+    provider: google # google, duckduckgo, bing, baidu, brave or custom
+
+    showSearchSuggestions: true # Optional, will show search suggestions. Defaults to false
+    target: _blank # One of _self, _blank, _parent or _top
+
+
+- datetime:
+    text_size: xl
+    format:
+        dateStyle: short
+        timeStyle: short
+        hour12: true
+- logo:
+    icon: /icons/favicon.ico
+      
+- openmeteo:
+    label: Valledupar # optional
+    latitude: 10.4631
+    longitude: -73.2532
+    units: metric # or imperial
+    cache: 5 # Time in minutes to cache API responses, to stay within limits
+    format: # optional, Intl.NumberFormat options
+      maximumFractionDigits: 1

@@ -1,0 +1,150 @@
+---
+# For configuration options and examples, please see:
+# https://gethomepage.dev/latest/configs/services
+
+- Provider:
+    - Proxmox:
+        href: https://proxmox.example.com/
+        description: Proxmox is a great tool
+        icon: proxmox.png
+        siteMonitor: https://proxmox.example.com/
+        widgets:
+            type: proxmox
+            url: https://proxmox.example.com/
+            username: {{HOME_PAGE_PROXMOX_USERNAME}}
+            password: {{HOME_PAGE_PROXMOX_PASSWORD}}
+    - AWS:
+        href: https://aws.amazon.com/
+        description: AWS is a great tool
+        icon: aws.png
+        siteMonitor: https://aws.amazon.com/
+    - Azure:
+        href: https://azure.microsoft.com/
+        description: Azure is a great tool
+        icon: azure.png
+        siteMonitor: https://azure.microsoft.com/
+
+- Management:
+    - Portainer External Services IA:
+        href: https://192.168.1.21:9443/
+        description: Portainer of SEIA
+        icon: portainer.png
+        siteMonitor: https://192.168.1.21:9443/
+
+    - Portainer Internal Gpu Services IA:
+        href: https://192.168.1.34:9443/
+        description: Portainer of SIGIA
+        icon: portainer.png
+        siteMonitor: https://192.168.1.32:9443/
+
+    - Portainer Internal Services IA:
+        href: https://192.168.1.32:9443/
+        description: Portainer of SIIA
+        icon: portainer.png
+        siteMonitor: https://192.168.1.32:9443/
+    
+    - Portainer Frontend:
+        href: https://portainer.frontend.jotamario.lat/
+        description: Portainer of Frontend
+        icon: portainer.png
+        server: frontend
+        container: portainer
+
+    - Portainer Backend:
+        href: https://portainer.backend.jotamario.lat/
+        description: Portainer of Backend
+        icon: portainer.png
+        siteMonitor: https://portainer.backend.jotamario.lat/
+    
+    - Jenkins:
+        href: http://192.168.1.62:8080/blue/pipelines
+        description: Jenkins Pipelines
+        icon: jenkins.png
+        siteMonitor: http://192.168.1.62:8080/blue/pipelines
+
+    - Dazlabs Secrets Manager:
+        href: https://secrets.dazmin.com/login
+        description: Dazlabs secrets manager for developers
+        icon: /icons/favicon.ico
+        siteMonitor: https://secrets.dazmin.com/login
+    - Hashicorp Vault:
+        href: http://192.168.1.63:8200/
+        description: Secret's Vault
+        icon: vault.png
+        siteMonitor: http://192.168.1.63:8200/
+
+- Tools:
+    - IT Tools:
+        href: http://it-tools.frontend.jotamario.lat/
+        description: Collection of handy online tools for developers, with great UX.
+        icon: it-tools.png
+        server: frontend
+        container: it-tools
+    - Hoppscotch:
+        href: http://192.168.50.86:3000/
+        description: Open Source API development EcoSystem
+        icon: hoppscotch.png
+        siteMonitor: http://192.168.50.86:3000/
+    - Planne:
+        href: http://pl.dazmin.com/
+        description: Open source project management software
+        icon: plane.png
+        siteMonitor: http://pl.dazmin.com/
+
+    - WebMail:
+        href: https://premium180.web-hosting.com:2096/
+        description: Correo de Dazlabs
+        icon: /icons/favicon.ico
+        siteMonitor: https://premium180.web-hosting.com:2096/
+        
+    - Drive:
+        href: https://drive.google.com/
+        description: Google Drive
+        icon: google-drive.png
+        siteMonitor: https://drive.google.com/
+
+    - Docs:
+        href: https://docs.google.com/
+        description: Google docs
+        icon: google-docs.png
+        siteMonitor: https://docs.google.com/
+
+    - Google Sheets:
+        href: https://docs.google.com/spreadsheets/u/0/
+        description: Google docs
+        icon: google-sheets.png
+        siteMonitor: https://docs.google.com/spreadsheets/u/0/
+
+
+   
+
+
+
+
+
+
+
+#Secret Manager
+
+#copy
+#https://secrets.dazmin.com/login
+
+#Hopppscotch
+
+#copy
+#http://192.168.50.86:3000/
+
+#Jenkins
+
+#Portainer
+
+#VPN Netbird
+
+#copy
+#https://netb.dazmin.com
+
+#Figma
+
+#copy
+#https://www.figma.com/login?is_not_gen_0=true&# resource_type=team
+

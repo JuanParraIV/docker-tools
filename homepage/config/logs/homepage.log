@@ -1,0 +1,449 @@
+[2025-01-27T18:38:03.543Z] info: bookmarks.yaml was copied to the config folder
+[2025-01-27T18:38:03.544Z] info: widgets.yaml was copied to the config folder
+[2025-01-27T18:38:03.545Z] info: docker.yaml was copied to the config folder
+[2025-01-27T18:38:03.590Z] info: kubernetes.yaml was copied to the config folder
+[2025-01-27T18:38:03.591Z] info: services.yaml was copied to the config folder
+[2025-01-27T18:38:03.877Z] info: custom.css was copied to the config folder
+[2025-01-27T18:38:03.877Z] info: custom.js was copied to the config folder
+[2025-01-29T22:45:14.074Z] error: <dockerStatusService> TypeError: Cannot read properties of null (reading 'conn')
+    at handler (/app/.next/server/pages/api/docker/status/[...service].js:89:86)
+    at Object.apiResolver (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/server/api-utils/node.js:366:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/server/next-server.js:481:9)
+    at async Object.fn (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/server/next-server.js:741:37)
+    at async Router.execute (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/server/router.js:252:36)
+    at async NextNodeServer.run (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/server/base-server.js:365:29)
+    at async NextNodeServer.handleRequest (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/server/base-server.js:303:20)
+    at async Server.<anonymous> (/app/server.js:19:5)
+[2025-01-29T22:45:15.326Z] error: <dockerStatusService> TypeError: Cannot read properties of null (reading 'conn')
+    at handler (/app/.next/server/pages/api/docker/status/[...service].js:89:86)
+    at Object.apiResolver (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/server/api-utils/node.js:366:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/server/next-server.js:481:9)
+    at async Object.fn (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/server/next-server.js:741:37)
+    at async Router.execute (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/server/router.js:252:36)
+    at async NextNodeServer.run (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/server/base-server.js:365:29)
+    at async NextNodeServer.handleRequest (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/server/base-server.js:303:20)
+    at async Server.<anonymous> (/app/server.js:19:5)
+[2025-01-29T22:45:19.071Z] error: <dockerStatusService> TypeError: Cannot read properties of null (reading 'conn')
+    at handler (/app/.next/server/pages/api/docker/status/[...service].js:89:86)
+    at Object.apiResolver (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/server/api-utils/node.js:366:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/server/next-server.js:481:9)
+    at async Object.fn (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/server/next-server.js:741:37)
+    at async Router.execute (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/server/router.js:252:36)
+    at async NextNodeServer.run (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/server/base-server.js:365:29)
+    at async NextNodeServer.handleRequest (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/server/base-server.js:303:20)
+    at async Server.<anonymous> (/app/server.js:19:5)
+[2025-01-29T22:49:44.452Z] error: <dockerStatusService> Error: connect ECONNREFUSED 192.168.1.64:2375
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+[2025-01-29T22:50:26.553Z] error: <dockerStatusService> Error: connect ECONNREFUSED 192.168.1.64:2375
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+[2025-01-29T22:50:27.538Z] error: <dockerStatusService> TypeError: Cannot read properties of null (reading 'conn')
+    at handler (/app/.next/server/pages/api/docker/status/[...service].js:89:86)
+    at Object.apiResolver (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/server/api-utils/node.js:366:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/server/next-server.js:481:9)
+    at async Object.fn (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/server/next-server.js:741:37)
+    at async Router.execute (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/server/router.js:252:36)
+    at async NextNodeServer.run (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/server/base-server.js:365:29)
+    at async NextNodeServer.handleRequest (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/server/base-server.js:303:20)
+    at async Server.<anonymous> (/app/server.js:19:5)
+[2025-01-29T22:51:04.852Z] error: <dockerStatusService> TypeError: Cannot read properties of null (reading 'conn')
+    at handler (/app/.next/server/pages/api/docker/status/[...service].js:89:86)
+    at Object.apiResolver (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/server/api-utils/node.js:366:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/server/next-server.js:481:9)
+    at async Object.fn (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/server/next-server.js:741:37)
+    at async Router.execute (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/server/router.js:252:36)
+    at async NextNodeServer.run (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/server/base-server.js:365:29)
+    at async NextNodeServer.handleRequest (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/server/base-server.js:303:20)
+    at async Server.<anonymous> (/app/server.js:19:5)
+[2025-01-29T22:51:05.646Z] error: <dockerStatusService> TypeError: Cannot read properties of null (reading 'conn')
+    at handler (/app/.next/server/pages/api/docker/status/[...service].js:89:86)
+    at Object.apiResolver (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/server/api-utils/node.js:366:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/server/next-server.js:481:9)
+    at async Object.fn (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/server/next-server.js:741:37)
+    at async Router.execute (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/server/router.js:252:36)
+    at async NextNodeServer.run (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/server/base-server.js:365:29)
+    at async NextNodeServer.handleRequest (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/server/base-server.js:303:20)
+    at async Server.<anonymous> (/app/server.js:19:5)
+[2025-01-29T22:52:45.759Z] error: <dockerStatusService> TypeError: Cannot read properties of null (reading 'conn')
+    at handler (/app/.next/server/pages/api/docker/status/[...service].js:89:86)
+    at Object.apiResolver (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/server/api-utils/node.js:366:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/server/next-server.js:481:9)
+    at async Object.fn (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/server/next-server.js:741:37)
+    at async Router.execute (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/server/router.js:252:36)
+    at async NextNodeServer.run (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/server/base-server.js:365:29)
+    at async NextNodeServer.handleRequest (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/server/base-server.js:303:20)
+    at async Server.<anonymous> (/app/server.js:19:5)
+[2025-01-29T22:52:46.220Z] error: <dockerStatusService> TypeError: Cannot read properties of null (reading 'conn')
+    at handler (/app/.next/server/pages/api/docker/status/[...service].js:89:86)
+    at Object.apiResolver (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/server/api-utils/node.js:366:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/server/next-server.js:481:9)
+    at async Object.fn (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/server/next-server.js:741:37)
+    at async Router.execute (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/server/router.js:252:36)
+    at async NextNodeServer.run (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/server/base-server.js:365:29)
+    at async NextNodeServer.handleRequest (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/server/base-server.js:303:20)
+    at async Server.<anonymous> (/app/server.js:19:5)
+[2025-01-29T22:52:47.202Z] error: <dockerStatusService> TypeError: Cannot read properties of null (reading 'conn')
+    at handler (/app/.next/server/pages/api/docker/status/[...service].js:89:86)
+    at Object.apiResolver (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/server/api-utils/node.js:366:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/server/next-server.js:481:9)
+    at async Object.fn (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/server/next-server.js:741:37)
+    at async Router.execute (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/server/router.js:252:36)
+    at async NextNodeServer.run (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/server/base-server.js:365:29)
+    at async NextNodeServer.handleRequest (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/server/base-server.js:303:20)
+    at async Server.<anonymous> (/app/server.js:19:5)
+[2025-01-29T22:52:48.878Z] error: <dockerStatsService> TypeError: Cannot read properties of null (reading 'conn')
+    at handler (/app/.next/server/pages/api/docker/stats/[...service].js:89:86)
+    at Object.apiResolver (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/server/api-utils/node.js:366:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/server/next-server.js:481:9)
+    at async Object.fn (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/server/next-server.js:741:37)
+    at async Router.execute (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/server/router.js:252:36)
+    at async NextNodeServer.run (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/server/base-server.js:365:29)
+    at async NextNodeServer.handleRequest (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/server/base-server.js:303:20)
+    at async Server.<anonymous> (/app/server.js:19:5)
+[2025-01-29T22:56:06.211Z] error: <dockerStatsService> TypeError: Cannot read properties of null (reading 'conn')
+    at handler (/app/.next/server/pages/api/docker/stats/[...service].js:89:86)
+    at Object.apiResolver (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/server/api-utils/node.js:366:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/server/next-server.js:481:9)
+    at async Object.fn (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/server/next-server.js:741:37)
+    at async Router.execute (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/server/router.js:252:36)
+    at async NextNodeServer.run (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/server/base-server.js:365:29)
+    at async NextNodeServer.handleRequest (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/server/base-server.js:303:20)
+    at async Server.<anonymous> (/app/server.js:19:5)
+[2025-01-29T22:56:06.232Z] error: <dockerStatusService> TypeError: Cannot read properties of null (reading 'conn')
+    at handler (/app/.next/server/pages/api/docker/status/[...service].js:89:86)
+    at Object.apiResolver (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/server/api-utils/node.js:366:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/server/next-server.js:481:9)
+    at async Object.fn (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/server/next-server.js:741:37)
+    at async Router.execute (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/server/router.js:252:36)
+    at async NextNodeServer.run (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/server/base-server.js:365:29)
+    at async NextNodeServer.handleRequest (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/server/base-server.js:303:20)
+    at async Server.<anonymous> (/app/server.js:19:5)
+[2025-01-29T23:43:30.594Z] error: <httpProxy> Error calling https://portainer.frontend.jotamario.lat:9443/api/endpoints/1/docker/containers/json...
+[2025-01-29T23:43:30.596Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 192.168.1.11:9443
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '192.168.1.11',
+    port: 9443
+  }
+]
+[2025-01-29T23:43:30.597Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://portainer.frontend.jotamario.lat:9443/api/endpoints/1/docker/containers/json?all=1
+[2025-01-29T23:43:36.671Z] error: <httpProxy> Error calling https://portainer.frontend.jotamario.lat:9443/api/endpoints/1/docker/containers/json...
+[2025-01-29T23:43:36.672Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 192.168.1.11:9443
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '192.168.1.11',
+    port: 9443
+  }
+]
+[2025-01-29T23:43:36.672Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://portainer.frontend.jotamario.lat:9443/api/endpoints/1/docker/containers/json?all=1
+[2025-01-29T23:43:43.526Z] error: <httpProxy> Error calling https://portainer.frontend.jotamario.lat:9443/api/endpoints/1/docker/containers/json...
+[2025-01-29T23:43:43.526Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 192.168.1.11:9443
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '192.168.1.11',
+    port: 9443
+  }
+]
+[2025-01-29T23:43:43.527Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://portainer.frontend.jotamario.lat:9443/api/endpoints/1/docker/containers/json?all=1
+[2025-01-29T23:44:02.068Z] error: <httpProxy> Error calling https://portainer.frontend.jotamario.lat:9443/api/endpoints/1/docker/containers/json...
+[2025-01-29T23:44:02.068Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 192.168.1.11:9443
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '192.168.1.11',
+    port: 9443
+  }
+]
+[2025-01-29T23:44:02.068Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://portainer.frontend.jotamario.lat:9443/api/endpoints/1/docker/containers/json?all=1
+[2025-01-29T23:44:19.162Z] error: <credentialedProxyHandler> HTTP Error 404 calling https://portainer.frontend.jotamario.lat/api/endpoints/1/docker/containers/json?all=1
+[2025-01-29T23:44:20.412Z] error: <credentialedProxyHandler> HTTP Error 404 calling https://portainer.frontend.jotamario.lat/api/endpoints/1/docker/containers/json?all=1
+[2025-01-29T23:44:35.666Z] error: <httpProxy> Error calling https://portainer.frontend.jotamario.lat:9443/api/endpoints/1/docker/containers/json...
+[2025-01-29T23:44:35.666Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 192.168.1.11:9443
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '192.168.1.11',
+    port: 9443
+  }
+]
+[2025-01-29T23:44:35.667Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://portainer.frontend.jotamario.lat:9443/api/endpoints/1/docker/containers/json?all=1
+[2025-01-29T23:44:36.838Z] error: <httpProxy> Error calling https://portainer.frontend.jotamario.lat:9443/api/endpoints/1/docker/containers/json...
+[2025-01-29T23:44:36.839Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 192.168.1.11:9443
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '192.168.1.11',
+    port: 9443
+  }
+]
+[2025-01-29T23:44:36.839Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://portainer.frontend.jotamario.lat:9443/api/endpoints/1/docker/containers/json?all=1
+[2025-01-29T23:44:39.435Z] error: <httpProxy> Error calling https://portainer.frontend.jotamario.lat:9443/api/endpoints/1/docker/containers/json...
+[2025-01-29T23:44:39.435Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 192.168.1.11:9443
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '192.168.1.11',
+    port: 9443
+  }
+]
+[2025-01-29T23:44:39.435Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://portainer.frontend.jotamario.lat:9443/api/endpoints/1/docker/containers/json?all=1
+[2025-01-29T23:46:13.747Z] error: <httpProxy> Error calling https://portainer.frontend.jotamario.lat:9443/api/endpoints/1/docker/containers/json...
+[2025-01-29T23:46:13.748Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 192.168.1.11:9443
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '192.168.1.11',
+    port: 9443
+  }
+]
+[2025-01-29T23:46:13.749Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://portainer.frontend.jotamario.lat:9443/api/endpoints/1/docker/containers/json?all=1
+[2025-01-29T23:47:23.886Z] error: <httpProxy> Error calling https://portainer.frontend.jotamario.lat:9000/api/endpoints/1/docker/containers/json...
+[2025-01-29T23:47:23.887Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 192.168.1.11:9000
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '192.168.1.11',
+    port: 9000
+  }
+]
+[2025-01-29T23:47:23.887Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://portainer.frontend.jotamario.lat:9000/api/endpoints/1/docker/containers/json?all=1
+[2025-01-29T23:47:24.972Z] error: <httpProxy> Error calling https://portainer.frontend.jotamario.lat:9000/api/endpoints/1/docker/containers/json...
+[2025-01-29T23:47:24.973Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 192.168.1.11:9000
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '192.168.1.11',
+    port: 9000
+  }
+]
+[2025-01-29T23:47:24.973Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://portainer.frontend.jotamario.lat:9000/api/endpoints/1/docker/containers/json?all=1
+[2025-01-29T23:48:20.069Z] error: <credentialedProxyHandler> HTTP Error 404 calling https://portainer.frontend.jotamario.lat/api/endpoints/1/docker/containers/json?all=1
+[2025-01-29T23:48:21.538Z] error: <credentialedProxyHandler> HTTP Error 404 calling https://portainer.frontend.jotamario.lat/api/endpoints/1/docker/containers/json?all=1
+[2025-01-29T23:49:24.016Z] error: <credentialedProxyHandler> HTTP Error 404 calling https://portainer.frontend.jotamario.lat/api/endpoints/1/docker/containers/json?all=1
+[2025-01-29T23:49:36.331Z] error: <httpProxy> Error calling https://portainer.frontend.jotamario.lat:9443/api/endpoints/1/docker/containers/json...
+[2025-01-29T23:49:36.332Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 192.168.1.11:9443
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '192.168.1.11',
+    port: 9443
+  }
+]
+[2025-01-29T23:49:36.333Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://portainer.frontend.jotamario.lat:9443/api/endpoints/1/docker/containers/json?all=1
+[2025-01-29T23:49:37.417Z] error: <httpProxy> Error calling https://portainer.frontend.jotamario.lat:9443/api/endpoints/1/docker/containers/json...
+[2025-01-29T23:49:37.417Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 192.168.1.11:9443
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '192.168.1.11',
+    port: 9443
+  }
+]
+[2025-01-29T23:49:37.417Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://portainer.frontend.jotamario.lat:9443/api/endpoints/1/docker/containers/json?all=1
+[2025-01-29T23:50:01.107Z] error: <credentialedProxyHandler> HTTP Error 404 calling https://portainer.frontend.jotamario.lat:9443/api/endpoints/1/docker/containers/json?all=1
+[2025-01-29T23:50:15.608Z] error: <credentialedProxyHandler> HTTP Error 404 calling https://portainer.frontend.jotamario.lat:9443/api/endpoints/1/docker/containers/json?all=1
+[2025-01-29T23:50:19.643Z] error: <credentialedProxyHandler> HTTP Error 404 calling https://portainer.frontend.jotamario.lat:9443/api/endpoints/1/docker/containers/json?all=1
+[2025-01-29T23:50:21.222Z] error: <credentialedProxyHandler> HTTP Error 404 calling https://portainer.frontend.jotamario.lat:9443/api/endpoints/1/docker/containers/json?all=1
+[2025-01-29T23:50:31.645Z] error: <httpProxy> Error calling https://portainer.frontend.jotamario.lat:944/api/endpoints/1/docker/containers/json...
+[2025-01-29T23:50:31.646Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 192.168.1.11:944
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '192.168.1.11',
+    port: 944
+  }
+]
+[2025-01-29T23:50:31.646Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://portainer.frontend.jotamario.lat:944/api/endpoints/1/docker/containers/json?all=1
+[2025-01-29T23:50:32.735Z] error: <httpProxy> Error calling https://portainer.frontend.jotamario.lat:944/api/endpoints/1/docker/containers/json...
+[2025-01-29T23:50:32.736Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 192.168.1.11:944
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '192.168.1.11',
+    port: 944
+  }
+]
+[2025-01-29T23:50:32.736Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://portainer.frontend.jotamario.lat:944/api/endpoints/1/docker/containers/json?all=1
+[2025-01-29T23:50:35.203Z] error: <httpProxy> Error calling https://portainer.frontend.jotamario.lat:944/api/endpoints/1/docker/containers/json...
+[2025-01-29T23:50:35.204Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 192.168.1.11:944
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '192.168.1.11',
+    port: 944
+  }
+]
+[2025-01-29T23:50:35.204Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://portainer.frontend.jotamario.lat:944/api/endpoints/1/docker/containers/json?all=1
+[2025-01-29T23:50:42.580Z] error: <credentialedProxyHandler> HTTP Error 404 calling https://portainer.frontend.jotamario.lat:9443/api/endpoints/1/docker/containers/json?all=1
+[2025-01-29T23:50:43.643Z] error: <credentialedProxyHandler> HTTP Error 404 calling https://portainer.frontend.jotamario.lat:9443/api/endpoints/1/docker/containers/json?all=1
+[2025-01-29T23:50:55.424Z] error: <credentialedProxyHandler> HTTP Error 404 calling https://portainer.frontend.jotamario.lat:9443/api/endpoints/1/docker/containers/json?all=1
+[2025-01-29T23:51:02.321Z] error: <credentialedProxyHandler> HTTP Error 404 calling https://portainer.frontend.jotamario.lat:9443/api/endpoints/1/docker/containers/json?all=1
+[2025-01-29T23:51:58.418Z] error: <credentialedProxyHandler> HTTP Error 404 calling https://portainer.frontend.jotamario.lat:9443/api/endpoints/1/docker/containers/json?all=1
+[2025-01-29T23:52:08.830Z] error: <credentialedProxyHandler> HTTP Error 404 calling https://portainer.frontend.jotamario.lat:9443/api/endpoints/1/docker/containers/json?all=1
+[2025-01-29T23:52:14.809Z] error: <httpProxy> Error calling https://portainer.frontend.jotamario.lat:944/api/endpoints/1/docker/containers/json...
+[2025-01-29T23:52:14.810Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 192.168.1.11:944
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '192.168.1.11',
+    port: 944
+  }
+]
+[2025-01-29T23:52:14.810Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://portainer.frontend.jotamario.lat:944/api/endpoints/1/docker/containers/json?all=1
+[2025-01-29T23:52:15.903Z] error: <httpProxy> Error calling https://portainer.frontend.jotamario.lat:944/api/endpoints/1/docker/containers/json...
+[2025-01-29T23:52:15.904Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 192.168.1.11:944
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '192.168.1.11',
+    port: 944
+  }
+]
+[2025-01-29T23:52:15.904Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://portainer.frontend.jotamario.lat:944/api/endpoints/1/docker/containers/json?all=1
+[2025-01-29T23:52:25.448Z] error: <httpProxy> Error calling https://portainer.frontend.jotamario.lat:944/api/endpoints/1/docker/containers/json...
+[2025-01-29T23:52:25.448Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 192.168.1.11:944
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '192.168.1.11',
+    port: 944
+  }
+]
+[2025-01-29T23:52:25.448Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://portainer.frontend.jotamario.lat:944/api/endpoints/1/docker/containers/json?all=1
+[2025-01-29T23:53:50.883Z] error: <httpProxy> Error calling https://portainer.frontend.jotamario.lat:944/api/endpoints/1/docker/containers/json...
+[2025-01-29T23:53:50.883Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 192.168.1.11:944
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '192.168.1.11',
+    port: 944
+  }
+]
+[2025-01-29T23:53:50.883Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://portainer.frontend.jotamario.lat:944/api/endpoints/1/docker/containers/json?all=1
+[2025-01-29T23:54:08.806Z] error: <credentialedProxyHandler> HTTP Error 404 calling https://portainer.frontend.jotamario.lat:9443//api/endpoints/1/docker/containers/json?all=1
+[2025-01-29T23:54:09.953Z] error: <credentialedProxyHandler> HTTP Error 404 calling https://portainer.frontend.jotamario.lat:9443//api/endpoints/1/docker/containers/json?all=1
+[2025-01-29T23:54:15.194Z] error: <credentialedProxyHandler> HTTP Error 404 calling https://portainer.frontend.jotamario.lat:9443//api/endpoints/1/docker/containers/json?all=1
+[2025-01-29T23:54:23.081Z] error: <credentialedProxyHandler> HTTP Error 404 calling https://portainer.frontend.jotamario.lat:9443//api/endpoints/1/docker/containers/json?all=1
+[2025-01-29T23:54:30.314Z] error: <credentialedProxyHandler> HTTP Error 404 calling https://portainer.frontend.jotamario.lat:9443//api/endpoints/1/docker/containers/json?all=1
+[2025-01-29T23:54:33.318Z] error: <credentialedProxyHandler> HTTP Error 404 calling https://portainer.frontend.jotamario.lat:9443//api/endpoints/1/docker/containers/json?all=1
+[2025-01-29T23:54:35.426Z] error: <credentialedProxyHandler> HTTP Error 404 calling https://portainer.frontend.jotamario.lat:9443//api/endpoints/1/docker/containers/json?all=1
+[2025-01-29T23:54:36.991Z] error: <credentialedProxyHandler> HTTP Error 404 calling https://portainer.frontend.jotamario.lat:9443//api/endpoints/1/docker/containers/json?all=1
+[2025-01-29T23:54:40.552Z] error: <credentialedProxyHandler> HTTP Error 404 calling https://portainer.frontend.jotamario.lat:9443/api/endpoints/1/docker/containers/json?all=1
+[2025-01-29T23:54:42.780Z] error: <credentialedProxyHandler> HTTP Error 404 calling https://portainer.frontend.jotamario.lat:9443/api/endpoints/1/docker/containers/json?all=1
+[2025-01-29T23:54:50.949Z] error: <credentialedProxyHandler> HTTP Error 404 calling https://portainer.frontend.jotamario.lat:9443/api/endpoints/1/docker/containers/json?all=1
+[2025-01-29T23:55:49.892Z] error: <credentialedProxyHandler> HTTP Error 404 calling https://portainer.frontend.jotamario.lat:9443/api/endpoints/1/docker/containers/json?all=1
+[2025-01-29T23:55:59.090Z] error: <credentialedProxyHandler> HTTP Error 404 calling https://portainer.frontend.jotamario.lat:9443/api/endpoints/1/docker/containers/json?all=1
+[2025-01-29T23:56:01.591Z] error: <credentialedProxyHandler> HTTP Error 404 calling https://portainer.frontend.jotamario.lat:9443/api/endpoints/1/docker/containers/json?all=1
+[2025-01-29T23:57:42.945Z] error: <credentialedProxyHandler> HTTP Error 404 calling https://portainer.frontend.jotamario.lat:9443/api/endpoints//docker/containers/json?all=1
+[2025-01-29T23:57:43.994Z] error: <credentialedProxyHandler> HTTP Error 404 calling https://portainer.frontend.jotamario.lat:9443/api/endpoints//docker/containers/json?all=1
+[2025-01-29T23:57:49.249Z] error: <credentialedProxyHandler> HTTP Error 404 calling https://portainer.frontend.jotamario.lat:9443/api/endpoints//docker/containers/json?all=1
+[2025-01-29T23:57:57.744Z] error: <credentialedProxyHandler> HTTP Error 404 calling https://portainer.frontend.jotamario.lat:9443/api/endpoints/1/docker/containers/json?all=1
+[2025-01-29T23:57:58.995Z] error: <credentialedProxyHandler> HTTP Error 404 calling https://portainer.frontend.jotamario.lat:9443/api/endpoints/1/docker/containers/json?all=1
+[2025-01-29T23:58:30.604Z] error: <credentialedProxyHandler> HTTP Error 404 calling https://portainer.frontend.jotamario.lat:9443/api/endpoints/1/docker/containers/json?all=1
+[2025-01-30T00:00:23.963Z] error: <credentialedProxyHandler> HTTP Error 404 calling https://192.168.1.11:9443//api/endpoints/1/docker/containers/json?all=1
+[2025-01-30T00:00:25.002Z] error: <credentialedProxyHandler> HTTP Error 404 calling https://192.168.1.11:9443//api/endpoints/1/docker/containers/json?all=1
+[2025-01-30T00:00:30.228Z] error: <credentialedProxyHandler> HTTP Error 404 calling https://192.168.1.11:9443//api/endpoints/1/docker/containers/json?all=1
+[2025-01-30T00:00:38.588Z] error: <credentialedProxyHandler> HTTP Error 404 calling https://192.168.1.11:9443//api/endpoints/1/docker/containers/json?all=1
+[2025-01-31T22:32:29.525Z] error: undefined
+[2025-02-02T13:42:35.752Z] error: undefined
+[2025-02-14T15:32:08.112Z] error: Failed to load services.yaml, please check for errors
+[2025-02-14T15:32:08.121Z] error: YAMLException: end of the stream or a document separator is expected (96:1)
+
+ 93 |         siteMonitor: https://dr ...
+ 94 | 
+ 95 | 
+ 96 | copy
+------^
+ 97 | http://192.168.50.143:3001
+ 98 | 
+[2025-02-14T15:32:08.328Z] error: Failed to load services.yaml, please check for errors
+[2025-02-14T15:32:08.328Z] error: YAMLException: end of the stream or a document separator is expected (96:1)
+
+ 93 |         siteMonitor: https://dr ...
+ 94 | 
+ 95 | 
+ 96 | copy
+------^
+ 97 | http://192.168.50.143:3001
+ 98 | 
+[2025-02-14T15:32:09.392Z] error: Failed to load services.yaml, please check for errors
+[2025-02-14T15:32:09.392Z] error: YAMLException: end of the stream or a document separator is expected (96:1)
+
+ 93 |         siteMonitor: https://dr ...
+ 94 | 
+ 95 | 
+ 96 | copy
+------^
+ 97 | http://192.168.50.143:3001
+ 98 | 
